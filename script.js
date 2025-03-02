@@ -53,3 +53,9 @@ console.log(name, email, city, country);
 
 const updatedUser = { ...user, email: "newemail@example.com" };
 console.log(updatedUser);
+
+
+document.getElementById("submitButton").addEventListener("click", function() {
+    const inputValue = document.getElementById("inputField").value;
+    document.getElementById("output").textContent = inputValue;
+});
