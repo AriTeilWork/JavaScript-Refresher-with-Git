@@ -1,4 +1,4 @@
-import { add, subtract } from './modules/math.js';
+import { add, subtract } from './math.js';
 
 const resultAdd = add(5, 3); // 8
 const resultSubtract = subtract(10, 4);// 6
