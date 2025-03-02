@@ -17,3 +17,24 @@ console.log(doubled);
 
 const filtered = numbers.filter(num => num > 2);
 console.log(filtered);
+
+
+
+
+class Car {
+    constructor(make, model, year) {
+        this.make = make;
+        this.model = model;
+        this.year = year;
+    }
+
+    getCarInfo() {
+        return `${this.year} ${this.make} ${this.model}`;
+    }
+}
+
+const car1 = new Car("Toyota", "Corolla", 2020);
+const car2 = new Car("Honda", "Civic", 2022);
+
+console.log(car1.getCarInfo());
+console.log(car2.getCarInfo());
