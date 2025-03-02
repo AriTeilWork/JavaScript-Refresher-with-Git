@@ -9,3 +9,11 @@ function compareNumbers(a, b) {
 
 calculateArea(5);
 compareNumbers(10, 7);
+
+const numbers = [1, 2, 3, 4, 5];
+
+const doubled = numbers.map(num => num * 2);
+console.log(doubled);
+
+const filtered = numbers.filter(num => num > 2);
+console.log(filtered);
